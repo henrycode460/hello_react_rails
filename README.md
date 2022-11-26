@@ -120,14 +120,27 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-Computer
+In order to run this project you need:
 
+- Computer
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- Run git clone ``
+Run ``git@github.com:henrycode460/hello_react_rails.git``
+Run ``cd hello_react_rails``
+Run  `` bundle install``
+Run ``rails db:migrate``
+
 
 <!--
 Example commands:
@@ -155,6 +168,10 @@ Example command:
 
 To run the project, execute the following command:
 
+Run ``npm install``
+Run ``npm run build``
+Run ``rails s``
+
 <!--
 Example command:
 
@@ -179,6 +196,8 @@ Example command:
 
 You can deploy this project using:
 
+``Heruko``
+
 <!--
 Example:
 
@@ -197,15 +216,12 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+**Henry Varflay Singbeh**
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/henrycode460)
+- Twitter: [@twitterhandle](https://twitter.com/code460)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/henry-varflay-singbeh)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,9 +231,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Messaage Details page to display more details about the message**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,7 +242,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/henrycode460/hello_react_rails/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +262,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thanks the entire Microverse community
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,13 +272,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Is this application connected to a database]**
 
-  - [Answer_1]
+  - [Yes, Using Postgresql]
 
-- **[Question_2]**
+- **[Which server are you using]**
 
-  - [Answer_2]
+  - [Webpack, and the Rails server]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
