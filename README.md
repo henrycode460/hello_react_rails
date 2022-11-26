@@ -35,39 +35,39 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 React Rails WebPack ](#-react-rails-webpack-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 React Rails WebPack <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is an react js and ruby on rails project that display a list of messages a user create
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> This application was develope using ruby on rails, react js, postgresql
 
 <details>
   <summary>Client</summary>
@@ -79,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -94,11 +94,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> There are no major feature about this application. It only display list of message for an api
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +122,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- Computer
+
 <!--
 Example command:
 
@@ -135,6 +135,12 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+Run ``git@github.com:henrycode460/hello_react_rails.git``
+Run ``cd hello_react_rails``
+Run  `` bundle install``
+Run ``rails db:migrate``
+
 
 <!--
 Example commands:
@@ -162,6 +168,10 @@ Example command:
 
 To run the project, execute the following command:
 
+Run ``npm install``
+Run ``npm run build``
+Run ``rails s``
+
 <!--
 Example command:
 
@@ -186,6 +196,8 @@ Example command:
 
 You can deploy this project using:
 
+``Heruko``
+
 <!--
 Example:
 
@@ -204,15 +216,12 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+**Henry Varflay Singbeh**
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/henrycode460)
+- Twitter: [@twitterhandle](https://twitter.com/code460)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/henry-varflay-singbeh)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,9 +231,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Messaage Details page to display more details about the message**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,7 +242,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/henrycode460/hello_react_rails/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,7 +262,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thanks the entire Microverse community
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -264,13 +272,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Is this application connected to a database]**
 
-  - [Answer_1]
+  - [Yes, Using Postgresql]
 
-- **[Question_2]**
+- **[Which server are you using]**
 
-  - [Answer_2]
+  - [Webpack, and the Rails server]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
